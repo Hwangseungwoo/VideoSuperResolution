@@ -1,6 +1,6 @@
 /* Player Style overrides */
 .vjs-matrix .vjs-big-play-button {
-  z-index: 99;
+  z-index: 0;
 }
 
 .vjs-matrix .vjs-sr-demo-handle {
@@ -30,8 +30,8 @@
 }
 
 .video-wrapper {
-  width: 1100px;
-  height: 600px;
+  width: 2200px;
+  height: 1200px;
   float: left;
 }
 
