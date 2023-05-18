@@ -48,7 +48,7 @@ class SuperResolution extends Plugin {
     this.container.id = this.player.id() + '-vjs-sr-demo-container';
     this.container.className = 'vjs-sr-demo-container';
 
-    this.container.innerHTML = `<canvas id="${this.player.id()}-vjs-sr-demo" class="vjs-sr-demo"></canvas>`;
+    this.container.innerHTML = `<canvas id="${this.player.id()}-vjs-sr-demo" class="vjs-sr-demo" height = "360px" width="640px"></canvas>`;
 
     const insertedContainer = this.player
       .el()
