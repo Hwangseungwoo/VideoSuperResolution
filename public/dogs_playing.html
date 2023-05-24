@@ -2,12 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>videojs-super-resolution Demo</title>
+    <title>video-super-resolution Demo</title>
     <link href="/dist/video-js.css" rel="stylesheet" />
     <link href="/dist/videojs-super-resolution.css" rel="stylesheet" />
   </head>
   <body class="demo-body">
-    <h1>Dogs playing (super resolution applied to 360p video)</h1>
+    <h1></h1>
     <div class="content">
       <div class="video-wrapper">
         <video
@@ -17,7 +17,8 @@
           controls
           crossorigin="anonymous"
         >
-          <source src="dogs_playing_640x360.mp4" type="video/mp4" />
+          <!-- <source src="dogs_playing_640x360.mp4" type="video/mp4" /> -->
+          <source src="https://connected-ott.s3.us-east-2.amazonaws.com/dogs_playing_640x360.mp4" type="video/mp4" crossorigin="anonymous"/>
         </video>
       </div>
      
@@ -38,7 +39,7 @@
 
                   // Metadata
                   player_name: "Nick's test playa", // ex: 'My Main Player'
-                  video_title: "dogs"
+                  video_title: "dogs",
                 }
               }
             }
